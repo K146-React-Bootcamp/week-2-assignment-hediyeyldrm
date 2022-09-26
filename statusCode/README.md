@@ -13,14 +13,14 @@ Kullanıcılar bir web sitesini ziyaret etmek istediklerinde iki taraflı bir il
 # HTTP Status Codes ve Anlamları
 
 ## `1XX Status Codes`
----
+
 + <ins><b>`100:`</b></ins> Tarayıcının sunucuya gönderdiği istek başlığının sunucu tarafından alındığını ve istek gövdesinin de alınmaya hazır olduğu anlamına gelir.
 
 + <ins><b>`101:`</b></ins> Tarayıcının sunucudan protokol değiştirmesini istediği ve sunucunun da bu isteği kabul ettiği anlamına gelir.
 + <ins><b>`103:`</b></ins> Son istek iletisinden önce bazı yanıt başlıklarını döndürdüğü anlamına gelir.
 
 ## `2XX Status Codes`
----
+
 + <ins><b>`200:`</b></ins> Tarayıcı ve sunucu tarafında her şeyin yolunda olduğu anlamına gelen ideal durum kodudur.
 + <ins><b>`201:`</b></ins> Sunucu tarafından isteğin yerine getirildiği ve yeni bir kaynak oluşturulduğu anlamına gelir.
 + <ins><b>`202:`</b></ins> Sunucunun tarayıcıdan gelen isteği kabul ettiği ve işleme koyduğu anlamına gelir. İstek olumlu ya da olumsuz sonuçlanabilir.
@@ -30,7 +30,7 @@ Kullanıcılar bir web sitesini ziyaret etmek istediklerinde iki taraflı bir il
 + <ins><b>`206:`</b></ins> Tarayıcının durdurulmuş indirmelere devam etmesini ve indirmeleri birden fazla akışa ayırmasını sağlayan durum kodudur. 
 
 ## `3XX Status Codes`
----
+
 + <ins><b>`300:`</b></ins> Tarayıcının isteğini yerine getirmek için sunucunun birden fazla olası kaynağa sahip olduğu ve bu kaynaklar arasında seçim yapması gerektiği anlamına gelir.
 + <ins><b>`301:`</b></ins> Bir web sayfası ya da bir kaynağın kalıcı olarak farklı bir kaynağa taşındığını ifade eden durum kodudur. 
 + <ins><b>`302:`</b></ins> Bir web sayfası ya da bir kaynağın geçici olarak farklı bir kaynağa taşındığını ifade eden durum kodudur.
@@ -40,7 +40,7 @@ Kullanıcılar bir web sitesini ziyaret etmek istediklerinde iki taraflı bir il
 + <ins><b>`308:`</b></ins> Bir kaynağın kalıcı olarak farklı bir kaynağa taşındığını ifade eden durum kodudur. 301 durum kodundan farklı olarak HTTP yönetiminin değişmesine izin vermez.
 
 ## `4XX Status Codes`
----
+
 + <ins><b>`400:`</b></ins> Sunucunun tarayıcıdaki hata nedeniyle isteği işleyemediği anlamına gelen durum kodudur.
 + <ins><b>`401:`</b></ins> Kullanıcının erişmek istediği kaynak için geçerli kimlik doğrulama bilgilerine sahip olmadığında döndürülen durum kodudur.
 + <ins><b>`402:`</b></ins> Ödeme gerektiği ve gelecekte kullanılmak üzere rezerve edildiği anlamına gelen durum kodudur.
@@ -67,7 +67,7 @@ Kullanıcılar bir web sitesini ziyaret etmek istediklerinde iki taraflı bir il
 + <ins><b>`431:`</b></ins> Üst bilgi alanlarının büyük olması nedeniyle sunucunun isteği işleyememesi anlamında gelen durum kodudur.
 
 ## `5XX Status Codes`
----
+
 + <ins><b>`500:`</b></ins> Sunucudaki sorun nedeniyle isteğin tamamlanamadığı durumlarda görülen durum kodudur.  
 + <ins><b>`501:`</b></ins> Sunucunun isteği yönetemediği ya da işlevleri destekleyemediği anlamında gelen durum kodudur.
 + <ins><b>`502:`</b></ins> Sunucunun başka bir sunucuya istek gönderdikten sonra geçersiz yanıt aldığı anlamına gelen durum kodudur. 
